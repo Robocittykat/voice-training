@@ -1,0 +1,53 @@
+{
+    "Robocittykat": {
+        "direction": "feminizing",
+        "password": "Pillovvs",
+        "accountCreated": {
+            "year": 2025,
+            "month": 8,
+            "day": 31
+        },
+        "streak": 6,
+        "daysActive": 0,
+        "lastPracticed": {
+            "year": 2025,
+            "month": 9,
+            "day": 2
+        },
+        "level": 0
+    },
+    "rob": {
+        "password": "no",
+        "direction": "masculinizing",
+        "accountCreated": {
+            "year": 2025,
+            "month": 9,
+            "day": 1
+        },
+        "streak": 0,
+        "daysActive": 0,
+        "lastPracticed": {
+            "year": 2025,
+            "month": 9,
+            "day": 1
+        },
+        "level": 0
+    },
+    "22carrots23": {
+        "password": "hi atha",
+        "direction": "masculinizing",
+        "accountCreated": {
+            "year": 2025,
+            "month": 9,
+            "day": 2
+        },
+        "streak": 1,
+        "daysActive": 0,
+        "lastPracticed": {
+            "year": 2025,
+            "month": 9,
+            "day": 2
+        },
+        "level": 0
+    }
+}

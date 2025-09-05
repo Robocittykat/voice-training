@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>voice training</title>
+</head>
+<body>
+	<div id="signInMenu">
+		<h1>Sign in!</h1>
+		<text>username: </text><input id="usernameBox" type="text"><br>
+		<text>password: </text><input id="passwordBox" type="password"><br>
+		<button id="signInButton" onclick="signIn()">Sign in</button><br>
+		<text id="inInvalid" hidden>Invalid username or password.</text>
+		
+		<h1>Sign up!</h1>
+		<text>username: </text><input id="upUsernameBox" type="text"><br>
+		<text>password: </text><input id="upPasswordBox" type="password"><br><br>
+		<text>Which direction are you trying to take your voice?</text><br>
+		<select id="upDirection">
+			<option>feminizing</option>
+			<option>masculinizing</option>
+			<option disabled>androgynizing</option>
+		</select><br>
+		<button id="signUpButton" onclick="signUp()">Sign in</button><br>
+		<text id="upInvalid" hidden>Username already exists.</text>
+	</div>
+	
+	
+	
+	<div id="mainMenu" hidden>
+		<h1>Main menu</h1>
+		<button onclick="startPrac()">Begin practice</button>
+		<h2>Your streak is <span id="streakLength"></span> days long.</h2>
+	</div>
+	
+	
+	
+	<div id="practiceMenu" hidden>
+		<div id="exercise0" hidden>
+			<h2 id="exercise0Name"></h2>
+			<text id="exercise0Desc"></text><br>
+			<text>Do this <span id="exercise0Reps"></span> time(s).</text>
+		</div>
+		<div id="exercise1" hidden>
+			<h2 id="exercise1Name"></h2>
+			<text id="exercise1Desc"></text><br>
+			<text>Do this <span id="exercise1Reps"></span> time(s).</text>
+		</div>
+		<div id="exercise2" hidden>
+			<h2 id="exercise2Name"></h2>
+			<text id="exercise2Desc"></text><br>
+			<text>Do this <span id="exercise2Reps"></span> time(s).</text>
+		</div>
+		<div id="exercise3" hidden>
+			<h2 id="exercise3Name"></h2>
+			<text id="exercise3Desc"></text><br>
+			<text>Do this <span id="exercise3Reps"></span> time(s).</text>
+		</div>
+		<div id="exercise4" hidden>
+			<h2 id="exercise4Name"></h2>
+			<text id="exercise4Desc"></text><br>
+			<text>Do this <span id="exercise4Reps"></span> time(s).</text>
+		</div>
+		
+		<h2>Repeat for <span id="pracTime"></span> minute(s).</h2>
+		<p id="pracTip"></p>
+		
+		<!--<button id="startTimerButton" onclick="timerStart()">Start timer!</button><text id="practiceTimer"></text>-->
+	</div>
+	
+	
+	
+	<script src="main.js"></script>
+</body>
+</html>
